@@ -1,0 +1,30 @@
+Matching Pennies | Round {t}/{T}.
+
+You and an opponent each choose HEADS or TAILS simultaneously every round. You score only when the two choices MATCH; your opponent's interest is the exact opposite, so there is no outcome that is good for both of you.
+Payoffs for you:
+  You HEADS, they HEADS : 1 point
+  You HEADS, they TAILS : 0 points
+  You TAILS, they HEADS : 0 points
+  You TAILS, they TAILS : 1 point
+
+The opponent follows one fixed but hidden strategy for the entire session — chosen equally at random before round 1:
+  - ALWAYS_HEADS : almost always chooses Heads
+  - ALWAYS_TAILS : almost always chooses Tails
+  - COUNTER      : chooses the OPPOSITE of whatever YOU played in the previous round (chooses at random on round 1)
+Each strategy makes an occasional mistake (about 1 round in 10).
+
+The same strategy applies every round. You do not know which it is, but the history is informative.
+
+History of completed rounds (do not confuse with the current round below):
+{history}
+
+Current round (no outcome known yet — this is what you decide):
+  Options:
+    A = {option_A_desc}
+    B = {option_B_desc}
+
+Explain your reasoning step by step:
+  1. What does the history tell you about the opponent's strategy?
+  2. What is your updated belief about their strategy, and how likely are they to choose Heads this round?
+  3. What is the optimal action given that belief?
+  4. {answer_format}

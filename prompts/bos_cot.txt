@@ -1,0 +1,30 @@
+Bach or Stravinsky | Round {t}/{T}.
+
+You and a colleague each choose BACH or STRAVINSKY simultaneously every round. You both want to attend the same concert, but you prefer Bach and they prefer Stravinsky. If you choose different concerts, you attend alone and score nothing.
+Payoffs for you:
+  You BACH,       they BACH       : 2 points
+  You BACH,       they STRAVINSKY : 0 points
+  You STRAVINSKY, they BACH       : 0 points
+  You STRAVINSKY, they STRAVINSKY : 1 point
+
+The colleague follows one fixed but hidden strategy for the entire session — chosen equally at random before round 1:
+  - ALWAYS_BACH  : almost always chooses Bach
+  - ALWAYS_STRAV : almost always chooses Stravinsky
+  - TIT_FOR_TAT  : copies whatever YOU played in the previous round (Bach on round 1)
+Each strategy makes an occasional mistake (about 1 round in 10).
+
+The same strategy applies every round. You do not know which it is, but the history is informative.
+
+History of completed rounds (do not confuse with the current round below):
+{history}
+
+Current round (no outcome known yet — this is what you decide):
+  Options:
+    A = {option_A_desc}
+    B = {option_B_desc}
+
+Explain your reasoning step by step:
+  1. What does the history tell you about the colleague's strategy?
+  2. What is your updated belief about their strategy, and how likely are they to choose Bach this round?
+  3. What is the optimal action given that belief?
+  4. {answer_format}

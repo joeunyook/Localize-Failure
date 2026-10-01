@@ -1,0 +1,17 @@
+Two-Armed Bandit | Round {t}/{T}.
+
+There are two slot machine arms: LEFT and RIGHT. Each arm pays out (WON) with a fixed but unknown probability every time it is pulled. One arm is better than the other, and the payout probabilities never change during the session.
+
+History of completed pulls (do not confuse with the current round below):
+{history}
+
+Current round (no outcome known yet — this is what you decide):
+  Options:
+    A = {option_A_desc}
+    B = {option_B_desc}
+
+Explain your reasoning step by step:
+  1. What does the history tell you about each arm's payout rate?
+  2. Which arm has the higher estimated payout probability, and how confident are you?
+  3. What is the optimal action given that estimate?
+  4. {answer_format}

@@ -1,0 +1,13 @@
+Two-Armed Bandit | Round {t}/{T}.
+
+There are two slot machine arms: LEFT and RIGHT. Each arm pays out (WON) with a fixed but unknown probability every time it is pulled. One arm is better than the other, and the payout probabilities never change during the session.
+
+History of completed pulls (do not confuse with the current round below):
+{history}
+
+Current round (no outcome known yet — this is what you decide):
+  Options:
+    A = {option_A_desc}
+    B = {option_B_desc}
+
+Based only on the evidence above, reply with the single letter of the best action. Do not explain.

@@ -1,0 +1,30 @@
+Chicken | Round {t}/{T}.
+
+You and an opponent each choose DARE or YIELD simultaneously every round.
+Payoffs for you:
+  You DARE,  they YIELD : 4 points
+  You DARE,  they DARE  : 0 points
+  You YIELD, they YIELD : 3 points
+  You YIELD, they DARE  : 1 point
+
+The opponent follows one fixed but hidden disposition for the entire session — chosen equally at random before round 1:
+  - CAUTIOUS : yields about 9 times in 10
+  - WARY     : yields about 7 times in 10
+  - BOLD     : yields about 3 times in 10
+  - RECKLESS : yields about 1 time in 10
+
+The same disposition applies every round. You do not know which it is, but the history is informative.
+
+History of completed rounds (do not confuse with the current round below):
+{history}
+
+Current round (no outcome known yet — this is what you decide):
+  Options:
+    A = {option_A_desc}
+    B = {option_B_desc}
+
+Explain your reasoning step by step:
+  1. What does the history tell you about the opponent's disposition?
+  2. What is your updated belief about their disposition, and how likely are they to yield this round?
+  3. What is the optimal action given that belief?
+  4. {answer_format}

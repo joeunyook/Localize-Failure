@@ -1,0 +1,25 @@
+Trust Game | Round {t}/{T}.
+
+Each round you hold 10 points. If you INVEST, your 10 points are sent to a trustee and tripled to 30; the trustee then decides how much to return to you. If you KEEP, you simply bank your 10 points.
+
+The trustee follows one fixed but hidden disposition for the entire session — chosen equally at random before round 1:
+  - RECIPROCATOR : returns 15 of the 30 every time
+  - GENEROUS     : returns 15 about 4 times in 5, 0 otherwise
+  - STINGY       : returns 15 about 1 time in 5, 0 otherwise
+  - EXPLOITER    : returns 0 every time
+
+The same disposition applies every round. You do not know which it is, but the history is informative.
+
+History of completed rounds (do not confuse with the current round below):
+{history}
+
+Current round (no outcome known yet — this is what you decide):
+  Options:
+    A = {option_A_desc}
+    B = {option_B_desc}
+
+Explain your reasoning step by step:
+  1. What does the history tell you about the trustee's disposition?
+  2. What is your updated belief about their disposition?
+  3. What is the expected value of investing, and is it better than keeping 10?
+  4. {answer_format}

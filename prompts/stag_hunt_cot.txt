@@ -1,0 +1,30 @@
+Stag Hunt | Round {t}/{T}.
+
+You and another hunter each choose STAG or HARE simultaneously every round.
+Payoffs for you:
+  You STAG, they STAG : 4 points
+  You STAG, they HARE : 0 points
+  You HARE, they STAG : 3 points
+  You HARE, they HARE : 2 points
+
+The other hunter follows one fixed but hidden strategy for the entire session — chosen equally at random before round 1:
+  - ALWAYS_STAG : almost always hunts stag
+  - ALWAYS_HARE : almost always hunts hare
+  - TIT_FOR_TAT : copies whatever YOU played in the previous round (stag on round 1)
+Each strategy makes an occasional mistake (about 1 round in 10).
+
+The same strategy applies every round. You do not know which it is, but the history is informative.
+
+History of completed rounds (do not confuse with the current round below):
+{history}
+
+Current round (no outcome known yet — this is what you decide):
+  Options:
+    A = {option_A_desc}
+    B = {option_B_desc}
+
+Explain your reasoning step by step:
+  1. What does the history tell you about the other hunter's strategy?
+  2. What is your updated belief about their strategy, and how likely are they to hunt stag this round?
+  3. What is the optimal action given that belief? 
+  4. {answer_format}

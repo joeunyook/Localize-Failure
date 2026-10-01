@@ -1,0 +1,27 @@
+Monty Hall | Round {t}/{T}.
+
+There are 3 doors. Behind one is a prize; the other two hide goats.
+The host always opens one of the other doors to reveal a goat. You then choose: keep your original door or move to the remaining closed door.
+
+The host follows one fixed but hidden prize-placement rule for the entire session — chosen equally at random before round 1:
+  - Random   : prize placed randomly each round — switching wins 2 out of 3 times on average
+  - Sticky   : prize always placed behind your initial pick — switching always loses
+  - Shifting : prize always placed behind the remaining door — switching always wins
+
+The same rule applies every round. You do not know which rule it is, but the history is informative.
+
+History of completed rounds (do not confuse with the current round below):
+{history}
+
+Current round (no outcome known yet — this is what you decide):
+  Your initial pick : Door {initial_pick}
+  Host opened       : Door {host_opens}  (goat revealed)
+  Options:
+    A = {option_A_desc}
+    B = {option_B_desc}
+
+Explain your reasoning step by step:
+  1. What does the history tell you about each rule?
+  2. What is your updated belief about which rule is in play?
+  3. What is the optimal action given that belief?
+  4. {answer_format}

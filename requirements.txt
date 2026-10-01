@@ -1,0 +1,8 @@
+# demo/ needs only these two
+numpy>=1.24
+scikit-learn>=1.3          # probes/probe_train.py
+
+# pipeline/ additionally needs a GPU stack
+torch>=2.0
+transformers>=4.40
+tqdm

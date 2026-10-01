@@ -1,0 +1,25 @@
+Slot Machine | Round {t}/{T}.
+
+Each round you hold 10 points. If you PLAY, your 10 points are inserted into the machine, which then either pays out 15 points or nothing, according to its fixed internal process. If you PASS, you simply bank your 10 points.
+
+The machine follows one fixed but hidden payout process for the entire session — chosen equally at random before round 1:
+  - ALWAYS_PAY : pays out 15 every time
+  - HIGH_RATE  : pays out 15 about 4 times in 5, 0 otherwise
+  - LOW_RATE   : pays out 15 about 1 time in 5, 0 otherwise
+  - NEVER_PAY  : pays out 0 every time
+
+The same process applies every round. You do not know which it is, but the history is informative.
+
+History of completed rounds (do not confuse with the current round below):
+{history}
+
+Current round (no outcome known yet — this is what you decide):
+  Options:
+    A = {option_A_desc}
+    B = {option_B_desc}
+
+Explain your reasoning step by step:
+  1. What does the history tell you about the machine's payout process?
+  2. What is your updated belief about the process?
+  3. What is the expected value of playing, and is it better than banking 10?
+  4. {answer_format}
